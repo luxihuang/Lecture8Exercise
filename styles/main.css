@@ -1,0 +1,149 @@
+.row{
+	width: 100%;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.col{
+	float:left;
+}
+
+.col-one-third{
+	width: 33.33%;
+	padding: 30px;
+	border-left: solid 1px lightgray;
+}
+
+*{
+	box-sizing: border-box;
+}
+/*css starts here */
+
+header{
+	background-color: black;
+	border-bottom: solid 5px yellow;
+}
+
+.header-title {
+	font-family: Merriweather;
+	float: left;
+	font-size: 30px;
+	color: yellow;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body{
+	font-family: Source Sans Pro;
+}
+
+.main-nav {
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav-link {
+	text-decoration: none;
+	margin: 10px;
+	color: white;
+}
+
+.nav-link-bold {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.tagline{
+	background-color: grey;
+	color: black;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+}
+
+
+.tagline_strikethrough{
+	text-decoration: line-through;
+	color: lightgray;
+}
+
+.tagline_underline{
+	border-bottom: 1px solid yellow;
+}
+
+.hero {
+	background: url(../images/coworking.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 30px 0px;
+}
+
+.hero-image-text{
+	width: 35%;
+	float: right;
+	padding: 30px;
+	margin: 0px 50px 0px 0px;
+	/*box-shadow: 0px 5px 0px 0px; */
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.services {
+	background-color: white;
+}
+
+.col-first {
+	border-left: none;
+}
+
+.CTA {
+	font-size: 24px;
+	font-style: bold;
+	margin-bottom: 5px;
+}
+
+.CTA_First_Button {
+	box-shadow: 0px 2px 0px 0px rgba(128, 128, 128, 1);
+	background-color: yellow;
+	margin: 10px 0px;
+	padding: 5px 0px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.CTA_Button {
+	box-shadow: 0px 2px 0px 0px rgba(128, 128, 128, 1);
+	background-color: lightgrey;
+	margin: 10px 0px;
+	padding: 5px 0px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.CTA_link {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+
+.footer {
+	background-color: black;
+	color: white;
+	padding: 20px 0px;
+	box-sizing: border-box;
+}
+
+
+.clearfix:after{
+	clear: both;
+	content: "";
+	display: block;	
+}
